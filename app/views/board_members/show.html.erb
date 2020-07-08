@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First:</strong>
+  <%= @board_member.first %>
+</p>
+
+<p>
+  <strong>Middle:</strong>
+  <%= @board_member.middle %>
+</p>
+
+<p>
+  <strong>Last:</strong>
+  <%= @board_member.last %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @board_member.email %>
+</p>
+
+<p>
+  <strong>Work:</strong>
+  <%= @board_member.work %>
+</p>
+
+<p>
+  <strong>Cell:</strong>
+  <%= @board_member.cell %>
+</p>
+
+<%= link_to 'Edit', edit_board_member_path(@board_member) %> |
+<%= link_to 'Back', board_members_path %>
